@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/background.jpeg);
+}
+
+.tv{
+    position: relative;
+    border: 10px solid black;
+    margin-top: 10px;
+}
+
+.control{
+    display: flex;
+    width: 80px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: rgb(19, 18, 18);
+    border: 3px solid gray;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+.next{
+    width: 40px;
+    height: 20px;
+}
+
+.back{
+    width: 40px;
+    height: 20px;
+}
+
+.onOff{
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(19, 18, 18);
+    border: 1px solid red;
+    color: red;
+    margin: 0;
+    cursor: pointer;
+}
+
+.on{
+    position: relative;
+    border: 10px solid black;
+    margin-top: 10px;
+}
+.off{
+    position: relative;
+    border: 10px solid black;
+    margin-top: 10px;
+}
+
+
+.btn{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(37, 36, 36);
+}
+
+.onOff:hover{
+    background-color: rgb(37, 36, 36);
+}
+
+.home{
+    border: 1px solid gray;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.align{
+    width: 80px;
+    height: 100px;
+}
+
+.midle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Home{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    margin-top: 20px;
+    border: 1px solid white;
+}
+
+.Netflix{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80px;
+    height: 50px;
+}
+
+.netflix{
+    color: red;
+    width: 50px;
+    height: 20px;
+    padding: 2px;
+}
+
+h5{
+    justify-content: flex-end;
+    text-align: center;
+    color: gray;
+}
