@@ -1,2 +1,2 @@
 # Tv
-Televisão que funciona :)
+Televisão
